@@ -46,6 +46,15 @@ section {
 /* -------------------------------------------------------------------------- */
 /* BOTOX & JUVEDERM SECTION */
 /* -------------------------------------------------------------------------- */
+.botox-juvederm {
+  background: url('../../img/botox-bg@2x.jpg') center / cover;
+  padding: 40px 20px;
+
+  .containerish {
+    display: grid;
+    grid-gap: 1rem;
+  }
+}
 
 /* -------------------------------------------------------------------------- */
 /* DR BIO SECTION */

@@ -66,6 +66,18 @@
       grid-gap: 1rem;
     }
   }
+
+  /* botox & juvederm ******************************************************* */
+  .botox-juvederm {
+    padding: 40px 20px;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 75%;
+      justify-content: center;
+      grid-gap: 2rem;
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -113,6 +125,36 @@
 
       img {
         align-self: flex-end;
+      }
+    }
+  }
+
+  /* botox & juvederm ******************************************************* */
+  .botox-juvederm {
+    padding: 40px 20px;
+
+    .containerish {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: center;
+      grid-gap: 2rem;
+
+      .botox {
+        // background: red;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      .juvederm {
+        // background: lightgreen;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .ui-btn-group {
+          justify-self: flex-end;
+        }
       }
     }
   }
@@ -245,6 +287,15 @@
       .section-info {
         margin-top: 100px;
       }
+    }
+  }
+
+  /* botox & juvederm ******************************************************* */
+  .botox-juvederm {
+    padding: 40px 20px;
+
+    .containerish {
+      grid-gap: 4rem;
     }
   }
 }
