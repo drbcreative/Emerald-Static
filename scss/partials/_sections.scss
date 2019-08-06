@@ -115,3 +115,30 @@ section {
 /* -------------------------------------------------------------------------- */
 /* APPOINTMENTS SECTION */
 /* -------------------------------------------------------------------------- */
+.appointments {
+  background: url("../../img/appointments-bg@2x.jpg") center / cover;
+  min-height: 400px;
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .appointment-wrapper {
+    flex: 1;
+    padding: 2rem 1rem;
+    max-width: 865px;
+    display: grid;
+
+    .form-copy {
+      text-align: center;
+    }
+
+    .form-control {
+      border-radius: 0;
+    }
+
+    input:not(:last-child) {
+      margin-bottom: 0.5rem;
+    }
+  }
+}
