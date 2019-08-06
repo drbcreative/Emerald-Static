@@ -89,6 +89,33 @@
       justify-content: center;
     }
   }
+
+  /* plepharoplasty ********************************************************* */
+  .blepharoplasty {
+    padding: 40px 20px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba($color-dark, .7);
+    }
+
+    .containerish {
+      grid-template-columns: 75%;
+      justify-content: center;
+
+      .section-info {
+
+        .ui-btn-white {
+          color: $color-black;
+        }
+      }
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -191,6 +218,32 @@
         height: 600px;
         width: auto;
         z-index: 15;
+      }
+    }
+  }
+
+  /* plepharoplasty ********************************************************* */
+  .blepharoplasty {
+    padding: 40px 20px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba($color-dark, 0);
+    }
+
+    .containerish {
+      grid-template-columns: 1fr 1fr;
+      align-items: flex-end;
+
+      .section-info {
+        .ui-btn-white {
+          color: $color-black;
+        }
       }
     }
   }
@@ -312,6 +365,26 @@
 
       .section-info {
         margin-left: 50px;
+      }
+    }
+  }
+
+  /* plepharoplasty ********************************************************* */
+  .blepharoplasty {
+    height: 800px;
+    padding: 40px 20px;
+    display: flex;
+    align-items: flex-end;
+
+    .containerish {
+      grid-template-columns: 1fr 1fr;
+
+      .section-info {
+        margin-left: 50px;
+
+        .ui-btn-white {
+          color: $color-black;
+        }
       }
     }
   }
