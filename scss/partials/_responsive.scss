@@ -78,6 +78,17 @@
       grid-gap: 2rem;
     }
   }
+
+  /* Dr. Bio **************************************************************** */
+  .bio {
+
+    .containerish {
+      background: url('../../img/dr-bg@2x.jpg') center / cover;
+      padding: 40px 20px 0 20px;
+      grid-template-columns: 75%;
+      justify-content: center;
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -155,6 +166,31 @@
         .ui-btn-group {
           justify-self: flex-end;
         }
+      }
+    }
+  }
+
+  /* Dr. Bio **************************************************************** */
+  .bio {
+    overflow: visible;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    .containerish {
+      padding: 0 20px;
+      grid-template-columns: 1fr 1fr;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      height: 500px;
+
+      img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 600px;
+        width: auto;
+        z-index: 15;
       }
     }
   }
@@ -249,6 +285,36 @@
     }
   }
 
+  /* botox & juvederm ******************************************************* */
+  .botox-juvederm {
+    padding: 60px 20px;
+  }
+
+  /* Dr. Bio **************************************************************** */
+  .bio {
+
+    .containerish {
+      padding: 0 20px;
+      grid-template-columns: 1fr 1fr;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      height: 600px;
+
+      img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        height: 700px;
+        width: auto;
+        z-index: 15;
+      }
+
+      .section-info {
+        margin-left: 50px;
+      }
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -297,6 +363,11 @@
     .containerish {
       grid-gap: 4rem;
     }
+  }
+
+  /* Dr. Bio **************************************************************** */
+  .bio {
+    padding-top: 6rem;
   }
 }
 
