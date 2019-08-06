@@ -1,0 +1,123 @@
+/* -------------------------------------------------------------------------- */
+/* FOOTER */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/* FOOTER 1 SECTION */
+/* -------------------------------------------------------------------------- */
+.footer1 {
+  .footer-link {
+    color: $color-white;
+    font-family: $font-primary;
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+    &:hover {
+      color: $color-light-accent;
+      text-decoration: none;
+    }
+  }
+
+  .footer-copy {
+    color: $color-white;
+    font-family: $font-primary;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .quick-link {
+    color: $color-main;
+    font-family: $font-primary;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    display: inline-block;
+
+    &:hover {
+      color: $color-light-accent;
+      text-decoration: none;
+    }
+  }
+
+  .quick-link--separator {
+    display: inline-block;
+    height: 7px;
+    width: 7px;
+    background: $color-main;
+    border-radius: 50%;
+    margin: 0 .5rem;
+    vertical-align: middle;
+  }
+
+  .containerish {
+    display: grid;
+    max-width: 100%;
+
+    .col-left {
+      background: url('../img/footer-green-bg@2x.jpg') center / cover;
+      padding: 40px 2rem;
+      display: grid;
+      grid-gap: 1rem;
+    }
+
+    .col-right {
+      background: url('../img/footer-face-bg@2x.jpg') center / cover;
+      padding: 40px 2rem;
+
+      .newsletter {
+        .form-control {
+          border-radius: 0;
+        }
+      }
+
+      .section-info {
+        margin-top: 3rem;
+      }
+    }
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+/* FOOTER 2 SECTION */
+/* -------------------------------------------------------------------------- */
+.footer2 {
+  background-color: $color-light;
+  width: 100%;
+  // padding: 0.6rem 30px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+
+  .footer-2-copy {
+    font-family: $font-primary;
+    font-size: 15px;
+    font-weight: 300;
+    color: $color-text-grey;
+    padding: 0;
+    margin: 0;
+  }
+
+  .footer-2-link {
+    @extend .footer-2-copy;
+
+    &:hover {
+      color: $color-light-accent;
+      text-decoration: none;
+    }
+  }
+
+  .containerish {
+    display: grid;
+    grid-template-rows: 1;
+    align-items: center;
+    max-width: 100%;
+
+    .foot-left {
+      display: none;
+    }
+
+    // .foot-middle {}
+
+    .foot-right {
+      display: none;
+    }
+  }
+}
