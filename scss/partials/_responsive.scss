@@ -81,9 +81,36 @@
   }
 
   /* NAVBAR *************************************************************** */
-
   .dropdown:hover>.dropdown-menu {
     display: block;
+  }
+
+  .navbar-wrapper {
+    background: rgba($color-dark, .2);
+    position: relative;
+    overflow: visible;
+    // min-height: 100px;
+    display: flex;
+    align-items: center;
+
+    .navbar-expand-xl .navbar-nav .nav-link {
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+    .containerish {
+      // width: 95%;
+      max-width: 100%;
+      margin: 0 auto;
+      height: auto;
+      padding: 0 1rem;
+      display: grid;
+      grid-gap: 1rem;
+
+      @media screen and (min-width: 1200px) {
+        padding: 0 2rem;
+      }
+    }
   }
 
 

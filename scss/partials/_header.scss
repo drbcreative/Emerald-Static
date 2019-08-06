@@ -95,7 +95,7 @@ header {
 /* NAVBAR */
 /* -------------------------------------------------------------------------- */
 .navbar-wrapper {
-  background: $color-white;
+  background: $color-dark;
   position: relative;
   overflow: visible;
   // min-height: 100px;
@@ -139,7 +139,7 @@ header {
   // font-family: $font-primary !important;
   .nav-link {
     font-family: $font-primary !important;
-    color: $color-main !important;
+    color: $color-white !important;
     font-size: 0.938rem;
     font-style: normal;
 
@@ -163,12 +163,12 @@ header {
 
   &::after {
     content: "|";
-    color: $color-dark;
+    color: $color-white;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    opacity: 0.2;
+    opacity: 0.4;
   }
 }
 
