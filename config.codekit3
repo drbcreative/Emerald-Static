@@ -33,6 +33,16 @@
 		"oAP": "/assets/FONT LIST.txt",
 		"oF": 0
 		},
+	"/css/theme.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/theme.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/vendor/bootstrap.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -129,15 +139,15 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/eyebrow-lift-bg@2x.jpg": {
+	"/img/eyebrow-bg@2x.jpg": {
 		"ft": 16384,
-		"iS": 215170,
+		"iS": 358412,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/img/eyebrow-lift-bg@2x.jpg",
+		"oAP": "/img/eyebrow-bg@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/eyebrow-lift-img@2x.jpg": {
@@ -206,6 +216,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/radiesse-img.jpg": {
+		"ft": 16384,
+		"iS": 49165,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/radiesse-img.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/img/radiesse-img@2x.jpg": {
 		"ft": 16384,
 		"iS": 172117,
@@ -214,7 +235,7 @@
 		"oAP": "/img/radiesse-img@2x.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/tempsure-bg@2x.jpg": {

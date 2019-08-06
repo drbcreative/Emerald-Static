@@ -102,6 +102,15 @@ section {
 /* -------------------------------------------------------------------------- */
 /* EYEBROW LIFT & RADIESSE SECTION */
 /* -------------------------------------------------------------------------- */
+.eyebrow-radiesse {
+  background: url('../../img/eyebrow-bg@2x.jpg') center / cover;
+  min-height: 400px;
+  padding: 40px 20px;
+
+  .eyebrow {
+    margin-bottom: 1rem;
+  }
+}
 
 /* -------------------------------------------------------------------------- */
 /* APPOINTMENTS SECTION */

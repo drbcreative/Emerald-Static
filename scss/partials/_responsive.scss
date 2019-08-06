@@ -116,6 +116,29 @@
       }
     }
   }
+
+  /* eyebrow and radiesse *************************************************** */
+  .eyebrow-radiesse {
+    padding: 40px 20px;
+
+    .eyebrow {
+      margin-bottom: 2rem;
+
+      .containerish {
+        display: grid;
+        grid-template-columns: 75%;
+        justify-content: center;
+      }
+    }
+
+    .radiesse {
+      .containerish {
+        display: grid;
+        grid-template-columns: 75%;
+        justify-content: center;
+      }
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -248,6 +271,40 @@
     }
   }
 
+  /* eyebrow and radiesse *************************************************** */
+  .eyebrow-radiesse {
+    padding: 40px 20px;
+
+    .eyebrow {
+      margin-bottom: 4rem;
+
+      .containerish {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+        align-items: center;
+      }
+    }
+
+    .radiesse {
+      .containerish {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2rem;
+        align-items: center;
+
+        img {
+          grid-column: 2;
+          grid-row: 1;
+        }
+
+        .section-info {
+          grid-column: 1;
+          grid-row: 1;
+        }
+      }
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -388,6 +445,41 @@
       }
     }
   }
+
+  /* eyebrow and radiesse *************************************************** */
+  .eyebrow-radiesse {
+    padding: 100px 20px;
+
+    .eyebrow {
+      margin-bottom: 6rem;
+
+      .containerish {
+        display: grid;
+        grid-template-columns: 1.3fr 1fr;
+        grid-gap: 2rem;
+        align-items: center;
+      }
+    }
+
+    .radiesse {
+      .containerish {
+        display: grid;
+        grid-template-columns: 1fr 1.3fr;
+        grid-gap: 2rem;
+        align-items: center;
+
+        img {
+          grid-column: 2;
+          grid-row: 1;
+        }
+
+        .section-info {
+          grid-column: 1;
+          grid-row: 1;
+        }
+      }
+    }
+  }
 }
 
 /* -------------------------------------------------------------------------- */
@@ -441,6 +533,38 @@
   /* Dr. Bio **************************************************************** */
   .bio {
     padding-top: 6rem;
+  }
+
+  /* eyebrow and radiesse *************************************************** */
+  .eyebrow-radiesse {
+
+    .eyebrow {
+      .containerish {
+        display: grid;
+        grid-template-columns: 1.2fr 1fr;
+        grid-gap: 4rem;
+        align-items: center;
+      }
+    }
+
+    .radiesse {
+      .containerish {
+        display: grid;
+        grid-template-columns: 1fr 1.2fr;
+        grid-gap: 4rem;
+        align-items: center;
+
+        img {
+          grid-column: 2;
+          grid-row: 1;
+        }
+
+        .section-info {
+          grid-column: 1;
+          grid-row: 1;
+        }
+      }
+    }
   }
 }
 
