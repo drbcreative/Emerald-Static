@@ -53,9 +53,19 @@
     }
   }
 
+  /* navbar ***************************************************************** */
+  .navbar-wrapper {
+
+    .containerish {
+      // width: 95%;
+      max-width: 95%;
+      padding: 0.2rem 0.5rem;
+    }
+  }
+
   /* tempsure *************************************************************** */
   .tempsure {
-    background: url('../../img/tempsure-bg@2x.jpg') center / cover;
+    background: url('../img/tempsure-bg@2x.jpg') center / cover;
     min-height: 300px;
     padding: 40px 20px;
 
@@ -83,7 +93,7 @@
   .bio {
 
     .containerish {
-      background: url('../../img/dr-bg@2x.jpg') center / cover;
+      background: url('../img/dr-bg@2x.jpg') center / cover;
       padding: 40px 20px 0 20px;
       grid-template-columns: 75%;
       justify-content: center;
@@ -163,7 +173,6 @@
         color: $color-white;
         width: 85%;
         max-width: 462px;
-        opacity: .5;
       }
 
       .social-media-icons {
@@ -217,7 +226,7 @@
 
   /* hero ******************************************************************* */
   .hero {
-    background: url('../../img/hero@2x.jpg') center / cover;
+    background: url('../img/hero@2x.jpg') center / cover;
     padding: 40px 20px;
     height: 80vh;
     display: flex;
@@ -237,7 +246,7 @@
 
   /* tempsure *************************************************************** */
   .tempsure {
-    background: url('../../img/tempsure-bg@2x.jpg') center / cover;
+    background: url('../img/tempsure-bg@2x.jpg') center / cover;
     min-height: 300px;
     padding: 40px 20px 0 20px;
 
@@ -427,7 +436,6 @@
         color: $color-white;
         width: 85%;
         max-width: 462px;
-        opacity: .5;
       }
 
       .social-media-icons {
@@ -513,6 +521,8 @@
     // min-height: 100px;
     display: flex;
     align-items: center;
+    box-shadow: 0 3px 6px rgba($color-black, .16);
+    transition: all .3s ease-in-out;
 
     .navbar-expand-xl .navbar-nav .nav-link {
       padding-right: 0;
@@ -527,19 +537,22 @@
     }
 
     .containerish {
-      // width: 95%;
-      max-width: 100%;
+      max-width: 95%;
       margin: 0 auto;
       height: auto;
-      padding: 0 2rem;
       display: grid;
       grid-gap: 1rem;
+    }
+
+    &.dark {
+      background: rgba($color-dark, .8);
+      transition: all .3s ease-in-out;
     }
   }
 
   /* hero ******************************************************************* */
   .hero {
-    background: url('../../img/hero@2x.jpg') center / cover;
+    background: url('../img/hero@2x.jpg') center / cover;
     padding: 40px 20px;
     height: 100vh;
     display: flex;
@@ -560,7 +573,7 @@
   }
 
   .tempsure {
-    background: url('../../img/tempsure-bg@2x.jpg') center / cover;
+    background: url('../img/tempsure-bg@2x.jpg') center / cover;
     padding: 0px 20px 0 20px;
 
     .containerish {
@@ -696,7 +709,7 @@
 
   /* tempsure *************************************************************** */
   .tempsure {
-    background: url('../../img/tempsure-bg@2x.jpg') center / cover;
+    background: url('../img/tempsure-bg@2x.jpg') center / cover;
     padding: 0px 20px 0 20px;
 
     .containerish {

@@ -17,7 +17,7 @@ section {
 /* HERO SECTION */
 /* -------------------------------------------------------------------------- */
 .hero {
-  background: url('../../img/hero@2x.jpg') left / cover;
+  background: url('../img/hero@2x.jpg') left / cover;
   padding: 40px 20px;
   height: 80vh;
   display: flex;
@@ -32,7 +32,7 @@ section {
 /* TEMPSURE ENVI SECTION */
 /* -------------------------------------------------------------------------- */
 .tempsure {
-  background: url('../../img/tempsure-bg@2x.jpg') center / cover;
+  background: url('../img/tempsure-bg@2x.jpg') center / cover;
   min-height: 300px;
   padding: 40px 20px;
 
@@ -47,7 +47,7 @@ section {
 /* BOTOX & JUVEDERM SECTION */
 /* -------------------------------------------------------------------------- */
 .botox-juvederm {
-  background: url('../../img/botox-bg@2x.jpg') center / cover;
+  background: url('../img/botox-bg@2x.jpg') center / cover;
   padding: 40px 20px;
 
   .containerish {
@@ -62,7 +62,7 @@ section {
 .bio {
 
   .containerish {
-    background: url('../../img/dr-bg@2x.jpg') center / cover;
+    background: url('../img/dr-bg@2x.jpg') center / cover;
     padding: 40px 20px 0 20px;
     display: grid;
   }
@@ -72,7 +72,7 @@ section {
 /* BLEPHAROPLASTY SECTION */
 /* -------------------------------------------------------------------------- */
 .blepharoplasty {
-  background: url('../../img/blepharoplasty-bg@2x.jpg') center / cover;
+  background: url('../img/blepharoplasty-bg@2x.jpg') center / cover;
   padding: 40px 20px;
   position: relative;
 
@@ -103,7 +103,7 @@ section {
 /* EYEBROW LIFT & RADIESSE SECTION */
 /* -------------------------------------------------------------------------- */
 .eyebrow-radiesse {
-  background: url('../../img/eyebrow-bg@2x.jpg') center / cover;
+  background: url('../img/eyebrow-bg@2x.jpg') center / cover;
   min-height: 400px;
   padding: 40px 20px;
 
@@ -116,7 +116,7 @@ section {
 /* APPOINTMENTS SECTION */
 /* -------------------------------------------------------------------------- */
 .appointments {
-  background: url("../../img/appointments-bg@2x.jpg") center / cover;
+  background: url("../img/appointments-bg@2x.jpg") center / cover;
   min-height: 400px;
   padding: 40px 20px;
   display: flex;

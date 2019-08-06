@@ -113,16 +113,16 @@ header {
 
   .containerish {
     // width: 95%;
-    max-width: 100%;
+    // max-width: 100%;
     margin: 0 auto;
     height: auto;
     padding: 0 1rem;
     display: grid;
     grid-gap: 1rem;
 
-    @media screen and (min-width: 1200px) {
-      padding: 0 2rem;
-    }
+    // @media screen and (min-width: 1200px) {
+    //   padding: 0 2rem;
+    // }
   }
 }
 
@@ -146,10 +146,10 @@ header {
     &:hover {
       color: $color-light-accent !important;
     }
+  }
 
-    @media screen and (min-width: 1200px) {
-      font-weight: 700;
-    }
+  @media screen and (min-width: 1400px) {
+    margin-right: 1.5rem;
   }
 }
 
@@ -231,7 +231,7 @@ header {
     position: relative;
 
     &::before {
-      content: '•';
+      content: '';
       margin-right: .3rem;
     }
 
@@ -249,81 +249,4 @@ header {
 .dropdown-toggle::after {
   border: none !important;
   margin-left: 0 !important;
-}
-
-@media screen and (min-width: 1200px) {
-  .dropdown-menu.mega-menu {
-    min-width: 100%;
-    right: -300px;
-    left: auto;
-
-    .containerish {
-      // width: 500px;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 6rem;
-      padding: 1rem 3rem;
-
-      // .mega-menu-header {
-      //   font-family: $font-primary;
-      //   font-size: 24px;
-      //   font-weight: 700;
-      //   color: $color-white;
-      // }
-
-      // .mega-menu-list {
-      //   padding: 0;
-
-      //   .dropdown-item {
-      //     padding-left: 0;
-      //     font-family: $font-primary;
-      //     font-size: 1rem;
-      //     position: relative;
-
-      //     &::before {
-      //       content: '•';
-      //       margin-right: .3rem;
-      //     }
-
-      //     a {
-      //       color: $color-white;
-
-      //       &:hover {
-      //         color: $color-dark-accent;
-      //         text-decoration: none;
-      //       }
-      //     }
-
-      //   }
-      // }
-
-      .col-left {
-        // background: red;
-      }
-
-      .col-middle {
-        justify-self: center;
-      }
-
-      .col-right {
-        justify-self: flex-end;
-      }
-    }
-  }
-}
-
-@media screen and (min-width: 1400px) {
-  // .dropdown-menu.mega-menu {
-  //   width: 50vw;
-  //   left: -300%;
-  //   position: relative;
-
-  // ::after {
-  //   content: 'hello';
-  //   font-size: 3rem;
-  //   position: absolute;
-  //   top: -50px;
-  //   right: 200px;
-  //   color: $color-main;
-  // }
 }
