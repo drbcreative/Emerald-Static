@@ -17,8 +17,11 @@ section {
 /* HERO SECTION */
 /* -------------------------------------------------------------------------- */
 .hero {
-  background: url('../../img/hero@2x.jpg') center / cover;
+  background: url('../../img/hero@2x.jpg') left / cover;
   padding: 40px 20px;
+  height: 80vh;
+  display: flex;
+  align-items: center;
 
   .containerish {
     display: grid;
