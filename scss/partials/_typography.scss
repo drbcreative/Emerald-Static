@@ -23,7 +23,7 @@ h5 h6 {
 h1 {
   //Not used on this project
   font-family: $font-secondary;
-  font-size: 4.375rem; // 50px
+  font-size: 4.375rem;
   line-height: 4.375rem;
   font-weight: 300;
   // font-variant-caps: all-petite-caps;
@@ -39,10 +39,9 @@ h1 {
 
 h2 {
   font-family: $font-secondary;
-  font-size: 3.125rem; // 45px
+  font-size: 3.125rem;
   line-height: 3.125rem;
   font-weight: 300;
-  // font-variant-caps: all-petite-caps;
 
   &.is-italic {
     font-style: italic;
@@ -51,10 +50,10 @@ h2 {
 
 h3 {
   font-family: $font-secondary;
-  font-size: 1.563rem; // 35px
+  font-size: 1.563rem;
   line-height: 1.563rem;
   font-weight: 300;
-  // font-variant-caps: all-petite-caps;
+  font-style: italic;
 }
 
 h4 {
@@ -84,10 +83,10 @@ h6 {
 
 //Body Text
 .body-copy {
-  font-size: 1rem; // 20px
+  font-size: 1rem;
   line-height: calc(1rem * 1.5);
   font-family: $font-primary;
-  font-weight: 400;
+  font-weight: 300;
 
   &.is-bold {
     font-weight: 700;
